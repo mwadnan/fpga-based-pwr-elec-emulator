@@ -1,0 +1,60 @@
+Program: C:\lscc\diamond\2.1_x64\micosystem\utilities\tclscript\vhdlwrapper.tcl
+Number of arguments: 9
+Argument: 0: Y:\private\ProjectFiles\EDrive_Emulator\LatticeMicoWorkspace\wb_soc_v2\soc
+Argument: 1: wb_soc_v2
+Argument: 2: nongo
+Argument: 3: 2.1
+Argument: 4: C:\lscc\diamond\2.1_x64
+Argument: 5: C:\lscc\diamond\2.1_x64\bin\nt64
+Argument: 6: C:\lscc\diamond\2.1_x64\ispfpga\bin\nt64
+Argument: 7: C:\lscc\diamond\2.1_x64\tcltk\lib
+Argument: 8: true
+
+install_dir: C:/lscc/diamond/2.1_x64
+cpld_bin: C:/lscc/diamond/2.1_x64/bin/nt64
+fpga_bin: C:/lscc/diamond/2.1_x64/ispfpga/bin/nt64
+fpga_dir: C:/lscc/diamond/2.1_x64/ispfpga
+tcl_lib: C:/lscc/diamond/2.1_x64/tcltk/lib
+bali_app: true
+
+Verilog Filename: Y:/private/ProjectFiles/EDrive_Emulator/LatticeMicoWorkspace/wb_soc_v2/soc/wb_soc_v2.v
+VHDL Filename: Y:/private/ProjectFiles/EDrive_Emulator/LatticeMicoWorkspace/wb_soc_v2/soc/wb_soc_v2_vhd.vhd
+MSB Filename: Y:/private/ProjectFiles/EDrive_Emulator/LatticeMicoWorkspace/wb_soc_v2/soc/wb_soc_v2.msb
+
+open Y:/private/ProjectFiles/EDrive_Emulator/LatticeMicoWorkspace/wb_soc_v2/soc/wb_soc_v2.msb
+tech: EC
+cpu: LM32
+comp: lm32_top
+comp: uart_core
+comp: gpio
+comp: slave_passthru
+close Y:/private/ProjectFiles/EDrive_Emulator/LatticeMicoWorkspace/wb_soc_v2/soc/wb_soc_v2.msb
+
+open Y:/private/ProjectFiles/EDrive_Emulator/LatticeMicoWorkspace/wb_soc_v2/soc/wb_soc_v2.v
+
+
+list top module port type width bus
+uartSIN in 1 0
+uartSOUT out 1 0
+gpioPIO_BOTH_IN in 4-1 1
+gpioPIO_BOTH_OUT out 4-1 1
+slave_passthruclk out 1 0
+slave_passthrurst out 1 0
+slave_passthruslv_adr out 32-1 1
+slave_passthruslv_master_data out 32-1 1
+slave_passthruslv_slave_data in 32-1 1
+slave_passthruslv_strb out 1 0
+slave_passthruslv_cyc out 1 0
+slave_passthruslv_ack in 1 0
+slave_passthruslv_err in 1 0
+slave_passthruslv_rty in 1 0
+slave_passthruslv_sel out 3 1
+slave_passthruslv_we out 1 0
+slave_passthruslv_bte out 1 1
+slave_passthruslv_cti out 2 1
+slave_passthruslv_lock out 1 0
+slave_passthruintr_active_high in 1 0
+open Y:/private/ProjectFiles/EDrive_Emulator/LatticeMicoWorkspace/wb_soc_v2/soc/wb_soc_v2_vhd.vhd
+close Y:/private/ProjectFiles/EDrive_Emulator/LatticeMicoWorkspace/wb_soc_v2/soc/wb_soc_v2_vhd.vhd
+
+Tech: EC
