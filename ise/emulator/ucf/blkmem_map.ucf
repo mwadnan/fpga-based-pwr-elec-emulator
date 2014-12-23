@@ -1,0 +1,13 @@
+# Location constranits for the Block RAM primitives 
+# for the program memory of the LM32 processor
+
+INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X0Y14;
+INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X0Y12;
+INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X1Y14;
+INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X1Y12;
+INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X0Y8;
+INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X0Y10;
+INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X1Y10;
+INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X1Y8;
+
+INST lm32_inst/LM32/cpu/load_store_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram LOC = RAMB16_X0Y16;

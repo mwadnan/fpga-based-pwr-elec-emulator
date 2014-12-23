@@ -1,0 +1,18 @@
+# Timing Constraints
+
+
+NET "RST"      TIG;
+
+NET "dcm_locked" 		TIG;
+
+
+#NET "Inst_ddr/Inst_mcb_wrapper/inst_mcb/memc3_infrastructure_inst/sys_clk_ibufg" TNM_NET = CLK_133M;
+NET "DDR_CLK" TNM_NET = CLK_133M;
+
+TIMESPEC TS_CLK_133M = PERIOD CLK_133M 7.5 ns HIGH 50 %;
+
+NET "CLK_IN" TNM_NET = CLK_66M;
+#NET "CPU_CLK" TNM_NET = CLK_66M;
+NET "CLK" TNM_NET = CLK_66M;
+
+TIMESPEC TS_CLK_66M = PERIOD CLK_66M 15 ns HIGH 50 %;

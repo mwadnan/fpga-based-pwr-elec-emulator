@@ -1,0 +1,15 @@
+#########################
+# Timing Constraints
+#########################
+
+NET "dcm_locked" 						TIG;
+
+NET "RST"      						TIG;
+
+NET "Inst_ddr/mcb_calib_done" 	TIG;
+
+# Period Constraints for Clock Signals
+
+NET "CLK_IN" TNM_NET = CLK_66M;
+
+TIMESPEC TS_CLK_66M = PERIOD CLK_66M 15 ns HIGH 50 %;
