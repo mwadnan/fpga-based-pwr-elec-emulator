@@ -17,17 +17,170 @@
   <files>
     <file xil_pn:name="src/top.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="57"/>
     </file>
     <file xil_pn:name="src/blkmemMap_lm32.bmm" xil_pn:type="FILE_BMM">
-      <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="ipcore_dir/CLKGEN/clk_gen.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="3"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="56"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/BRAM_2K/bram2K.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="10"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="9"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/BRAM_16K/bram16K.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="20"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="10"/>
+    </file>
+    <file xil_pn:name="../src/hdl/adc_emulator_wrapper.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="30"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="55"/>
+    </file>
+    <file xil_pn:name="../src/hdl/cpu_calc_wrapper.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="31"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="54"/>
+    </file>
+    <file xil_pn:name="../src/hdl/ddr_ctrl_sm.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="32"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="46"/>
+    </file>
+    <file xil_pn:name="../src/hdl/ddr_ctrl_wrapper.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="33"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="53"/>
+    </file>
+    <file xil_pn:name="../src/hdl/dp_bram.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="34"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="33"/>
+    </file>
+    <file xil_pn:name="../src/hdl/mcb_wrapper.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="35"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="45"/>
+    </file>
+    <file xil_pn:name="../src/hdl/pwm_filter.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="36"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="52"/>
+    </file>
+    <file xil_pn:name="../src/hdl/reduction_op.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="37"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="43"/>
+    </file>
+    <file xil_pn:name="../src/hdl/regsize_calc.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="38"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="32"/>
+    </file>
+    <file xil_pn:name="../src/hdl/state_PE.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="39"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="40"/>
+    </file>
+    <file xil_pn:name="../src/hdl/state_update_SM.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="40"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="39"/>
+    </file>
+    <file xil_pn:name="../src/hdl/state_update_wrapper.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="41"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="51"/>
+    </file>
+    <file xil_pn:name="../src/hdl/trig_gen.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="42"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="38"/>
+    </file>
+    <file xil_pn:name="../src/hdl/wb_slave_interface.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="43"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="50"/>
+    </file>
+    <file xil_pn:name="../src/hdl/reg_serialize.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="44"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="42"/>
+    </file>
+    <file xil_pn:name="../src/hdl/block_regs.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="45"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="48"/>
+    </file>
+    <file xil_pn:name="../src/hdl/coeff_ram.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="46"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="47"/>
+    </file>
+    <file xil_pn:name="../src/hdl/signed_mult.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="47"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="31"/>
+    </file>
+    <file xil_pn:name="../src/hdl/moving_avg_filter.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="48"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="44"/>
+    </file>
+    <file xil_pn:name="../src/hdl/spi_slave_sm.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="49"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="41"/>
+    </file>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/soc/wb_soc_v2.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="50"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="49"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/UART_Fifo/uart_fifo.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="81"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="7"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/LPDDR_MCB/mcb_bank3/user_design/rtl/infrastructure.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="91"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="23"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/LPDDR_MCB/mcb_bank3/user_design/rtl/mcb_bank3.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="92"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="30"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/LPDDR_MCB/mcb_bank3/user_design/rtl/memc_wrapper.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="93"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="22"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/LPDDR_MCB/mcb_bank3/user_design/rtl/mcb_controller/iodrp_controller.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="94"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/LPDDR_MCB/mcb_bank3/user_design/rtl/mcb_controller/iodrp_mcb_controller.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="95"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/LPDDR_MCB/mcb_bank3/user_design/rtl/mcb_controller/mcb_raw_wrapper.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="96"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="5"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/LPDDR_MCB/mcb_bank3/user_design/rtl/mcb_controller/mcb_soft_calibration.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="97"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
     </file>
-    <file xil_pn:name="ipcore_dir/CLKGEN/clk_gen.xise" xil_pn:type="FILE_COREGENISE">
+    <file xil_pn:name="../src/ipcore/LPDDR_MCB/mcb_bank3/user_design/rtl/mcb_controller/mcb_soft_calibration_top.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="98"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/LPDDR_MCB/mcb_bank3/user_design/rtl/mcb_controller/mcb_ui_top.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="99"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="8"/>
+    </file>
+    <file xil_pn:name="ucf/blkmem_map.ucf" xil_pn:type="FILE_UCF">
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="ucf/clock.ucf" xil_pn:type="FILE_UCF">
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="ucf/ddr_ctrl.ucf" xil_pn:type="FILE_UCF">
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="ucf/top.ucf" xil_pn:type="FILE_UCF">
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="ipcore_dir/CLKGEN/clk_gen.xise" xil_pn:type="FILE_COREGENISE">
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/BRAM_2K/bram2K.xise" xil_pn:type="FILE_COREGENISE">
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/BRAM_16K/bram16K.xise" xil_pn:type="FILE_COREGENISE">
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="../src/ipcore/UART_Fifo/uart_fifo.xise" xil_pn:type="FILE_COREGENISE">
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
   </files>
 
@@ -216,6 +369,7 @@
     <property xil_pn:name="Package" xil_pn:value="csg324" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Perform Advanced Analysis" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Perform Advanced Analysis Post Trace" xil_pn:value="false" xil_pn:valueState="default"/>
+    <property xil_pn:name="Perform Timing-Driven Packing and Placement" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Place &amp; Route Effort Level (Overall)" xil_pn:value="High" xil_pn:valueState="default"/>
     <property xil_pn:name="Place And Route Mode" xil_pn:value="Normal Place and Route" xil_pn:valueState="default"/>
     <property xil_pn:name="Place MultiBoot Settings into Bitstream spartan6" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -364,6 +518,36 @@
     <!-- Do not hand-edit this section, as it will be overwritten when the    -->
     <!-- project is analyzed based on files automatically identified as       -->
     <!-- include files.                                                       -->
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/soc/system_conf.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_include_all.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_addsub.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_include.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_adder.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_cpu.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_functions.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_dcache.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_debug.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_decoder.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_icache.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_instruction_unit.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_interrupt.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_load_store_unit.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_logic_op.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_mc_arithmetic.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_multiplier.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_shifter.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_top.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/lm32_top/rtl/verilog/lm32_trace.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/uart_core/rtl/verilog/uart_core.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/uart_core/rtl/verilog/intface.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/uart_core/rtl/verilog/txcver_fifo.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/uart_core/rtl/verilog/rxcver.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/uart_core/rtl/verilog/rxcver_fifo.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/uart_core/rtl/verilog/txmitt.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/gpio/rtl/verilog/gpio.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/gpio/rtl/verilog/tpio.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/slave_passthru/rtl/verilog/slave_passthru.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../../lattice/emulator/wb_soc_v2/components/slave_passthru/rtl/verilog/passthru.v" xil_pn:type="FILE_VERILOG"/>
   </autoManagedFiles>
 
 </project>

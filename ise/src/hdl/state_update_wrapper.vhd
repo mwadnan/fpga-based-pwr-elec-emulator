@@ -312,7 +312,7 @@ STATE_PE_INSTS:
 				MACC_SHIFT => PE_macc_shift,
 				U_IN => U,
 				Z_IN => Z,
-				COEFF_IN => bram_data((i+1)*SHORT_WIDTH-1 downto i*SHORT_WIDTH),-- & (NUM_WIDTH-SHORT_WIDTH-1 downto 0 => '0'),
+				COEFF_IN => bram_data((i+1)*SHORT_WIDTH-1 downto i*SHORT_WIDTH) & (NUM_WIDTH-SHORT_WIDTH-1 downto 0 => '0'),
 				STATE_IN => x_in_comb((i+1)*NUM_WIDTH-1 downto i*NUM_WIDTH),
 				REG_IN_1 => reg_in_1_comb((i+1)*NUM_WIDTH-1 downto i*NUM_WIDTH),
 				REG_IN_2 => reg_in_2_comb((i+1)*NUM_WIDTH-1 downto i*NUM_WIDTH),
