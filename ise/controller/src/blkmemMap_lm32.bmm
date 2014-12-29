@@ -1,0 +1,69 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// Processor LM32_32K Memory Map 
+// Note: The memory initialization file (ELF file) is organized according to Big-Endian topology
+//		
+//		The memory Space of the processor is defined in 2 parts: 
+//			Instruction - 0x00000000 - 0x00003FFF - 16KB
+//			Data - 0x00004000 - 0x000047FF - 2KB
+//			
+//		The Instruction memory space is divided in 8 RAMB16 Primitive(s), each containing 2KB = 512 Kwords (32-bit)
+//		The Data memory space is divided in 1 RAMB16 Primitive(s), each containing 2KB = 512 Kwords (32-bit)
+//
+//		The exact location of the Block RAM primitives can be obtained from FPGA_Editor or PlanAhead after Mapping
+//
+///////////////////////////////////////////////////////////////////////////////
+
+//ADDRESS_MAP LM32 LM32_32K
+
+    ADDRESS_SPACE bram32K COMBINED [0x00000000:0x000047FF]
+		ADDRESS_RANGE RAMB16 /* 0x00000000 - 0x00003FFF */
+			BUS_BLOCK	
+				lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram [31:0] PLACED = X1Y12;
+			END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+		ADDRESS_RANGE RAMB16 
+			BUS_BLOCK	
+				lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram [31:0] PLACED = X1Y20;
+			END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+		ADDRESS_RANGE RAMB16 
+			BUS_BLOCK	
+				lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram [31:0] PLACED = X0Y20;
+			END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+		ADDRESS_RANGE RAMB16 
+			BUS_BLOCK	
+				lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram [31:0] PLACED = X0Y22;
+			END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+		ADDRESS_RANGE RAMB16 
+			BUS_BLOCK	
+				lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram [31:0] PLACED = X1Y16;
+			END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+		ADDRESS_RANGE RAMB16 
+			BUS_BLOCK	
+				lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram [31:0] PLACED = X1Y18;
+			END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+		ADDRESS_RANGE RAMB16 
+			BUS_BLOCK	
+				lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram [31:0] PLACED = X1Y24;
+			END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+		ADDRESS_RANGE RAMB16 
+			BUS_BLOCK	
+				lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram [31:0] PLACED = X1Y22;
+			END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+				
+		ADDRESS_RANGE RAMB16 /* 0x00004000 - 0x000047FF */
+			BUS_BLOCK	
+				lm32_inst/LM32/cpu/load_store_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram [31:0] PLACED = X0Y24;
+			END_BUS_BLOCK;
+		END_ADDRESS_RANGE;
+    END_ADDRESS_SPACE;
+	
+//END_ADDRESS_MAP;
+
