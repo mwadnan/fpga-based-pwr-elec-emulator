@@ -224,7 +224,7 @@ architecture Behavioral of top is
 		DATA_I : IN std_logic_vector(FW_DATA_WIDTH-1 downto 0);          
 		DATA_O : OUT std_logic_vector(FW_DATA_WIDTH-1 downto 0);
 		PERIOD_INTR : OUT std_logic;
-		PWM_EN 		: OUT  STD_LOGIC;
+		PWM_EN 		: OUT  std_logic_vector(N_CHANNELS-1 downto 0);
 		PWM_OUT : OUT std_logic_vector(N_CHANNELS-1 downto 0)
 		);
 	END COMPONENT;
@@ -275,7 +275,7 @@ architecture Behavioral of top is
 	
 	signal adc_channel_out : std_logic_vector (N_ADC_DEVICES*N_ADC_CHANNELS*NUM_WIDTH-1 downto 0);
 		
-	signal pwm_en_sig  : std_logic;
+	signal pwm_en_sig  : std_logic_vector(N_PWM_CHANNELS-1 downto 0);
 	signal pwm_gen_out : std_logic_vector(N_PWM_CHANNELS-1 downto 0);
 	
 	signal pwm_intr_pulse : std_logic;	
@@ -285,7 +285,7 @@ begin
 -- Combinational Logic
 	cpu_reset_n <= not RST;
 	
-	PWM_EN <= pwm_en_sig & pwm_en_sig & pwm_en_sig;	
+	PWM_EN <= pwm_en_sig(2 downto 0);	
 	PWM_OUT <= pwm_gen_out;
 
 -- Interconnect between Firmware Blocks (See Excel File)

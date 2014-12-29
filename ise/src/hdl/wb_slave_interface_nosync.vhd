@@ -63,7 +63,7 @@ entity wb_slave_interface_nosync is
 			 FW_DIN 			: out  STD_LOGIC_VECTOR (FW_DATA_WIDTH-1 downto 0);
 			 FW_ADDR 		: out  STD_LOGIC_VECTOR (FW_ADDR_WIDTH-1 downto 0)
 			);
-end wb_slave_interface;
+end wb_slave_interface_nosync;
 
 architecture Behavioral of wb_slave_interface_nosync is
 
@@ -135,7 +135,6 @@ begin
 			ack_cond_p1 <= ack_cond;
 			ack_cond_p2 <= ack_cond_p1;
 			
-			s1_dout <= dout;
 		end if;
 	end process;
 

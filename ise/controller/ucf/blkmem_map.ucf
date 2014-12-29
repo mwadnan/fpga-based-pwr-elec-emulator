@@ -9,13 +9,5 @@ INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg
 INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X1Y18;
 INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X1Y24;
 INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X1Y22;
-INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X0Y18;
-INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X1Y14;
-INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X1Y10;
-INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X1Y26;
-INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X0Y16;
-INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X0Y12;
-INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X0Y14;
-INST lm32_inst/LM32/cpu/instruction_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/s6_noinit.ram/TRUE_DP.PRIM18.ram LOC = RAMB16_X1Y8;
 
 INST lm32_inst/LM32/cpu/load_store_unit/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram LOC = RAMB16_X0Y24;
